@@ -23,6 +23,8 @@
         color:#1f79bf;
         font-weight:600;
     }
+    #series-detail { max-width: 360px; }
+    .table tbody tr:hover { background:#f8f9fa; cursor:pointer; }
     </style>
 </head>
 <body>
@@ -51,6 +53,14 @@
                 </div>
             </div>
             <div class="col">
+                <div id="series-detail" class="card d-one">
+                    <img id="detail-img" class="card-img-top" alt="">
+                    <div class="card-body">
+                        <h5 id="detail-title" class="card-title mb-2"></h5>
+                        <p id="detail-desc" class="card-text small mb-2"></p>
+                        <a id="detail-link" class="small" target="_blank" rel="noopener"></a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
